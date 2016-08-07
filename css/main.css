@@ -414,7 +414,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   border: 1px solid #ddd;
-  font-size: 14px;
+  font-size: 16px;
   table-layout: fixed;
   word-wrap: break-all;
 }
@@ -496,10 +496,10 @@ pre,
   overflow: auto;
   margin: 20px 0;
   padding: 15px;
-  font-size: 18px;
+  font-size: 16px;
   color: #c5c8c6;
   background: #1d1f21;
-  line-height: 1.6;
+  line-height: 1.3;
 }
 pre,
 code {
@@ -511,7 +511,7 @@ code {
   color: #555;
   background: #ccc;
   border-radius: 6px;
-  font-size: 18px;
+  font-size: 16px;
 }
 pre code {
   padding: 0;
@@ -1663,7 +1663,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff0e00;
+  background: #6a04bb;
 }
 .links-of-blogroll {
   font-size: 13px;
