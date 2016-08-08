@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.boziteng.com/"/>
-  <updated>2016-08-08T09:22:33.267Z</updated>
+  <updated>2016-08-08T09:43:02.272Z</updated>
   <id>http://www.boziteng.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://www.boziteng.com/2016/08/08/%E8%BF%99%E5%87%A0%E5%A4%A9%E9%83%BD%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88/"/>
-    <id>http://www.boziteng.com/2016/08/08/这几天都发生了什么/</id>
-    <published>2016-08-08T08:01:45.000Z</published>
-    <updated>2016-08-08T09:22:33.267Z</updated>
+    <title>这些天都发生了什么</title>
+    <link href="http://www.boziteng.com/2016/08/08/what-s-up-those-day/"/>
+    <id>http://www.boziteng.com/2016/08/08/what-s-up-those-day/</id>
+    <published>2016-08-08T09:40:28.000Z</published>
+    <updated>2016-08-08T09:43:02.272Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>自从8月8号注册了<a href="https://github.com/aqiongbei" title="aqiongbei&#39;s Github Repositories" target="_blank" rel="external">Github</a>以后我就就没怎么好好休息过，每天坐在电脑前十几个小时。每天熬夜到3-5点。精疲力尽。当然，我的JS也没怎么看。</p>
