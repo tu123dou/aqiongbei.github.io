@@ -1433,77 +1433,97 @@ pre .javascript .function {
   margin: 0.8em 2em 0 2em;
 }
 #wechat:hover p {
-  animation: roll 0.1s infinite linear;
-  -webkit-animation: roll 0.1s infinite linear;
-  -moz-animation: roll 0.1s infinite linear;
+  animation: roll 0.5s 1 linear;
+  -webkit-animation: roll 0.5s 1 linear;
+  -moz-animation: roll 0.5s 1 linear;
+  color: #f7877f;
+  font-size: 28px;
 }
 #alipay:hover p {
-  animation: roll 0.1s infinite linear;
-  -webkit-animation: roll 0.1s infinite linear;
-  -moz-animation: roll 0.1s infinite linear;
+  animation: roll 0.5s 1 linear;
+  -webkit-animation: roll 0.5s 1 linear;
+  -moz-animation: roll 0.5s 1 linear;
+  color: #f7877f;
+  font-size: 28px;
 }
 @-moz-keyframes roll {
   from {
-    -webkit-transform: rotateZ(30deg);
-    -moz-transform: rotateZ(30deg);
-    -ms-transform: rotateZ(30deg);
-    -o-transform: rotateZ(30deg);
-    transform: rotateZ(30deg);
+    color: #555;
+    font-size: 18px;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
   }
   to {
-    -webkit-transform: rotateZ(-30deg);
-    -moz-transform: rotateZ(-30deg);
-    -ms-transform: rotateZ(-30deg);
-    -o-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);
+    color: #f7877f;
+    font-size: 28px;
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
   }
 }
 @-webkit-keyframes roll {
   from {
-    -webkit-transform: rotateZ(30deg);
-    -moz-transform: rotateZ(30deg);
-    -ms-transform: rotateZ(30deg);
-    -o-transform: rotateZ(30deg);
-    transform: rotateZ(30deg);
+    color: #555;
+    font-size: 18px;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
   }
   to {
-    -webkit-transform: rotateZ(-30deg);
-    -moz-transform: rotateZ(-30deg);
-    -ms-transform: rotateZ(-30deg);
-    -o-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);
+    color: #f7877f;
+    font-size: 28px;
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
   }
 }
 @-o-keyframes roll {
   from {
-    -webkit-transform: rotateZ(30deg);
-    -moz-transform: rotateZ(30deg);
-    -ms-transform: rotateZ(30deg);
-    -o-transform: rotateZ(30deg);
-    transform: rotateZ(30deg);
+    color: #555;
+    font-size: 18px;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
   }
   to {
-    -webkit-transform: rotateZ(-30deg);
-    -moz-transform: rotateZ(-30deg);
-    -ms-transform: rotateZ(-30deg);
-    -o-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);
+    color: #f7877f;
+    font-size: 28px;
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
   }
 }
 @keyframes roll {
   from {
-    -webkit-transform: rotateZ(30deg);
-    -moz-transform: rotateZ(30deg);
-    -ms-transform: rotateZ(30deg);
-    -o-transform: rotateZ(30deg);
-    transform: rotateZ(30deg);
+    color: #555;
+    font-size: 18px;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
   }
   to {
-    -webkit-transform: rotateZ(-30deg);
-    -moz-transform: rotateZ(-30deg);
-    -ms-transform: rotateZ(-30deg);
-    -o-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);
+    color: #f7877f;
+    font-size: 28px;
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
   }
 }
 .sidebar {
@@ -1663,7 +1683,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff05fc;
+  background: #ffdd17;
 }
 .links-of-blogroll {
   font-size: 13px;
