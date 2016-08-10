@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.boziteng.com/"/>
+  <link href="http://www.boziteng.win/"/>
   <updated>2016-08-10T12:30:10.470Z</updated>
-  <id>http://www.boziteng.com/</id>
+  <id>http://www.boziteng.win/</id>
   
   <author>
     <name>Qiongbei</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>在Github上利用hexo搭建个人博客</title>
-    <link href="http://www.boziteng.com/2016/08/10/how-to-bulid-your-own-blog-by-hexo-and-github/"/>
-    <id>http://www.boziteng.com/2016/08/10/how-to-bulid-your-own-blog-by-hexo-and-github/</id>
+    <link href="http://www.boziteng.win/2016/08/10/how-to-bulid-your-own-blog-by-hexo-and-github/"/>
+    <id>http://www.boziteng.win/2016/08/10/how-to-bulid-your-own-blog-by-hexo-and-github/</id>
     <published>2016-08-10T05:29:51.000Z</published>
     <updated>2016-08-10T12:30:10.470Z</updated>
     
@@ -62,21 +62,21 @@
     
     </summary>
     
-      <category term="教程" scheme="http://www.boziteng.com/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://www.boziteng.win/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="教程" scheme="http://www.boziteng.com/tags/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://www.boziteng.win/tags/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="hexo" scheme="http://www.boziteng.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.boziteng.win/tags/hexo/"/>
     
-      <category term="Github" scheme="http://www.boziteng.com/tags/Github/"/>
+      <category term="Github" scheme="http://www.boziteng.win/tags/Github/"/>
     
   </entry>
   
   <entry>
     <title>这些天都发生了什么</title>
-    <link href="http://www.boziteng.com/2016/08/08/what-s-up-those-day/"/>
-    <id>http://www.boziteng.com/2016/08/08/what-s-up-those-day/</id>
+    <link href="http://www.boziteng.win/2016/08/08/what-s-up-those-day/"/>
+    <id>http://www.boziteng.win/2016/08/08/what-s-up-those-day/</id>
     <published>2016-08-08T09:40:28.000Z</published>
     <updated>2016-08-10T12:34:20.966Z</updated>
     
@@ -110,14 +110,14 @@
     </summary>
     
     
-      <category term="随笔" scheme="http://www.boziteng.com/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.boziteng.win/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.boziteng.com/2016/08/08/hello-world/"/>
-    <id>http://www.boziteng.com/2016/08/08/hello-world/</id>
+    <link href="http://www.boziteng.win/2016/08/08/hello-world/"/>
+    <id>http://www.boziteng.win/2016/08/08/hello-world/</id>
     <published>2016-08-07T16:11:30.560Z</published>
     <updated>2016-08-07T19:24:18.744Z</updated>
     
