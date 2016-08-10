@@ -94,7 +94,7 @@
 <meta property="og:description" content="我的blog搭建完成了，中间也是很多曲折的，从不了解github，不知道hexo，不熟悉MarkDown语法，到成功完成自己的blog也是感触颇多。虽然网上这类教程还是挺多的，每篇都写的很详细，但是对于一个小白来说，还是觉得有很多地方跳跃性太大,不容易操作。所以我觉得有必要写这样的一篇教程。以此来帮助更多人。">
 <meta property="og:image" content="http://www.boziteng.com/../how-to-bulid-your-own-blog-by-hexo-and-github/hexo.jpg">
 <meta property="og:image" content="http://www.boziteng.com/../how-to-bulid-your-own-blog-by-hexo-and-github/hexo原理.jpg">
-<meta property="og:updated_time" content="2016-08-10T12:15:26.271Z">
+<meta property="og:updated_time" content="2016-08-10T12:17:37.128Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在Github上利用hexo搭建个人博客">
 <meta name="twitter:description" content="我的blog搭建完成了，中间也是很多曲折的，从不了解github，不知道hexo，不熟悉MarkDown语法，到成功完成自己的blog也是感触颇多。虽然网上这类教程还是挺多的，每篇都写的很详细，但是对于一个小白来说，还是觉得有很多地方跳跃性太大,不容易操作。所以我觉得有必要写这样的一篇教程。以此来帮助更多人。">
@@ -356,12 +356,13 @@
 
       
         <blockquote>
-<p>我的blog搭建完成了，中间也是很多曲折的，从不了解github，不知道hexo，不熟悉MarkDown语法，到成功完成自己的blog也是感触颇多。虽然网上这类教程还是挺多的，每篇都写的很详细，但是对于一个小白来说，还是觉得有很多地方跳跃性太大,不容易操作。所以我觉得有必要写这样的一篇教程。以此来帮助更多人。<br><a id="more"></a></p>
+<p>我的blog搭建完成了，中间也是很多曲折的，从不了解github，不知道hexo，不熟悉MarkDown语法，到成功完成自己的blog也是感触颇多。虽然网上这类教程还是挺多的，每篇都写的很详细，但是对于一个小白来说，还是觉得有很多地方跳跃性太大,不容易操作。所以我觉得有必要写这样的一篇教程。以此来帮助更多人。</p>
+</blockquote>
+<a id="more"></a>
 <p><div style="border-right:4px solid red;padding:4px 14px;"><p style="color:red">我觉得你打算做这些之前先看下面的图，这些图是我自己总结出来的，有些地方可能不够准确，但对小白来讲我相信还是有帮助的，对于加深对接下里要做的事的理解还是有帮助的，更利于在某个环节出现了问题时解决问题。</p></div><br><img src="../how-to-bulid-your-own-blog-by-hexo-and-github/hexo.jpg" alt="利用Hexo在Github上搭建博客"><br><img src="../how-to-bulid-your-own-blog-by-hexo-and-github/hexo原理.jpg" alt="Hexo原理"></p>
 <p></p><p style="color:red">声明：<br>&nbsp;&nbsp;&nbsp;&nbsp;准备部分软件安装就不赘述了。直接从Git配置ssh开始</p><p></p>
 <h2 id="Git连接ssh"><a href="#Git连接ssh" class="headerlink" title="Git连接ssh"></a>Git连接ssh</h2><p>由于我们没有进行过ssh连接配置，所以省去检查有没有ssh连接配置这一步，直接开始配置ssh<br>打开Git Bash</p>
 <h3 id="设置Git的user-name和email："><a href="#设置Git的user-name和email：" class="headerlink" title="设置Git的user name和email："></a>设置Git的user name和email：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"aqiongbei"</span> <span class="comment">#改成你的注册Github的用户名</span></div><div class="line">git config --global user.email <span class="string">"aqiongbei@gmail.com"</span> <span class="comment">#改成你的注册Github的邮箱</span></div></pre></td></tr></table></figure>
-</blockquote>
 <h3 id="生成SSH密钥过程："><a href="#生成SSH密钥过程：" class="headerlink" title="生成SSH密钥过程："></a>生成SSH密钥过程：</h3><p>生存密钥：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C <span class="string">"aqiongbei@gmail.com"</span> <span class="comment">#改成你注册Github的邮箱</span></div></pre></td></tr></table></figure></p>
 <p>返回提示如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">$ ssh-keygen -t rsa -C <span class="string">"aqiongbei@gmail.com"</span> <span class="comment">#改成你注册Github的邮箱</span></div><div class="line">Generating public/private rsa key pair.</div><div class="line">Enter file <span class="keyword">in</span> <span class="built_in">which</span> to save the key (/c/Users/neckpain/.ssh/id_rsa):<span class="comment">#直接回车</span></div><div class="line">Enter passphrase (empty <span class="keyword">for</span> no passphrase):<span class="comment">#直接回车</span></div><div class="line">Enter same passphrase again:<span class="comment">#直接回车</span></div><div class="line">Your identification has been saved <span class="keyword">in</span> /c/Users/neckpain/.ssh/id_rsa.<span class="comment">#生成的密钥</span></div><div class="line">Your public key has been saved <span class="keyword">in</span> /c/Users/neckpain/.ssh/id_rsa.pub. <span class="comment">#生成的公钥</span></div><div class="line">The key fingerprint is:</div><div class="line">e3:51:33:xx:xx:xx:xx:xxx:61:28:83:e2:81 xxxxxx@yy.com</div><div class="line"><span class="comment">#本机已完成ssh key设置，其存放路径为：c:/Users/neckpain/.ssh/下</span></div></pre></td></tr></table></figure></p>
 <p>然后会提示，不用理，直接按回车，一共三次。<br>在<code>C:\Users\Neckpain\.ssh</code>得到 id_rsa 和 id_rsa.pub 文件，说明生成成功</p>
