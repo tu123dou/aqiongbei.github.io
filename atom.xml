@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.boziteng.win/"/>
-  <updated>2016-08-11T20:29:46.900Z</updated>
+  <updated>2016-08-11T20:42:43.651Z</updated>
   <id>http://www.boziteng.win/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.boziteng.win/2016/08/11/apply-Next-theme-on-hexo/"/>
     <id>http://www.boziteng.win/2016/08/11/apply-Next-theme-on-hexo/</id>
     <published>2016-08-11T10:51:07.000Z</published>
-    <updated>2016-08-11T20:29:46.900Z</updated>
+    <updated>2016-08-11T20:42:43.651Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>嫌弃hexo自带的主题？没事，刚好，我也嫌弃。那就换个主题吧。</p>
@@ -45,7 +45,11 @@
       <category term="教程" scheme="http://www.boziteng.win/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="教程，主题，hexo" scheme="http://www.boziteng.win/tags/%E6%95%99%E7%A8%8B%EF%BC%8C%E4%B8%BB%E9%A2%98%EF%BC%8Chexo/"/>
+      <category term="教程" scheme="http://www.boziteng.win/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="hexo" scheme="http://www.boziteng.win/tags/hexo/"/>
+    
+      <category term="Next主题" scheme="http://www.boziteng.win/tags/Next%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
@@ -121,7 +125,7 @@
     <link href="http://www.boziteng.win/2016/08/08/what-s-up-those-day/"/>
     <id>http://www.boziteng.win/2016/08/08/what-s-up-those-day/</id>
     <published>2016-08-08T09:40:28.000Z</published>
-    <updated>2016-08-10T12:34:20.966Z</updated>
+    <updated>2016-08-11T20:35:57.730Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>自从8月4号注册了<a href="https://github.com/aqiongbei" title="aqiongbei&#39;s Github Repositories" target="_blank" rel="external">Github</a>以后我就就没怎么好好休息过，每天坐在电脑前十几个小时。每天熬夜到3-5点。精疲力尽。当然，我的JS也没怎么看。</p>
@@ -151,6 +155,8 @@
 &lt;/blockquote&gt;
     
     </summary>
+    
+      <category term="随笔" scheme="http://www.boziteng.win/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
       <category term="随笔" scheme="http://www.boziteng.win/tags/%E9%9A%8F%E7%AC%94/"/>
