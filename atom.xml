@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.boziteng.win/"/>
-  <updated>2016-08-11T20:42:43.651Z</updated>
+  <updated>2016-08-16T15:06:26.115Z</updated>
   <id>http://www.boziteng.win/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello Mr. Shu</title>
+    <link href="http://www.boziteng.win/2016/08/16/hello-Mr-Shu/"/>
+    <id>http://www.boziteng.win/2016/08/16/hello-Mr-Shu/</id>
+    <published>2016-08-16T14:54:34.000Z</published>
+    <updated>2016-08-16T15:06:26.115Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>Hello,树先生。看完。感慨。</p>
+</blockquote>
+<a id="more"></a>
+ <blockquote class="blockquote-center"><p>让别人决定你的命运，那不可悲吗<br>Hello Mr.Shu</p>
+</blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Hello,树先生。看完。感慨。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://www.boziteng.win/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://www.boziteng.win/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>在hexo上应用Next主题</title>
