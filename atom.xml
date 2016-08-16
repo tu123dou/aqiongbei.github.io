@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.boziteng.win/"/>
-  <updated>2016-08-16T15:06:26.115Z</updated>
+  <updated>2016-08-16T15:09:26.315Z</updated>
   <id>http://www.boziteng.win/</id>
   
   <author>
@@ -16,23 +16,18 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello Mr. Shu</title>
+    <title>hello Mr.Shu</title>
     <link href="http://www.boziteng.win/2016/08/16/hello-Mr-Shu/"/>
     <id>http://www.boziteng.win/2016/08/16/hello-Mr-Shu/</id>
     <published>2016-08-16T14:54:34.000Z</published>
-    <updated>2016-08-16T15:06:26.115Z</updated>
+    <updated>2016-08-16T15:09:26.315Z</updated>
     
-    <content type="html"><![CDATA[<blockquote>
-<p>Hello,树先生。看完。感慨。</p>
-</blockquote>
-<a id="more"></a>
- <blockquote class="blockquote-center"><p>让别人决定你的命运，那不可悲吗<br>Hello Mr.Shu</p>
+    <content type="html"><![CDATA[ <blockquote class="blockquote-center"><p>让别人决定你的命运，那不可悲吗<br>Hello Mr.Shu</p>
 </blockquote>]]></content>
     
     <summary type="html">
     
-      &lt;blockquote&gt;
-&lt;p&gt;Hello,树先生。看完。感慨。&lt;/p&gt;
+       &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;让别人决定你的命运，那不可悲吗&lt;br&gt;Hello Mr.Shu&lt;/p&gt;
 &lt;/blockquote&gt;
     
     </summary>
