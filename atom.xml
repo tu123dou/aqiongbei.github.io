@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.boziteng.win/"/>
-  <updated>2016-09-05T13:45:30.368Z</updated>
+  <updated>2016-09-05T14:50:11.754Z</updated>
   <id>http://www.boziteng.win/</id>
   
   <author>
@@ -16,30 +16,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hurry up ,boss is coming</title>
+    <title>快，跟我走,老板喊你回去改PPT</title>
     <link href="http://www.boziteng.win/2016/09/05/hurry-up-boss-is-coming/"/>
     <id>http://www.boziteng.win/2016/09/05/hurry-up-boss-is-coming/</id>
     <published>2016-09-05T13:45:30.000Z</published>
-    <updated>2016-09-05T13:45:30.368Z</updated>
+    <updated>2016-09-05T14:50:11.754Z</updated>
+    
+    <content type="html"><![CDATA[<p>快，跟我走,老板喊你回去改PPT<br><a id="more"></a><br><img src="../hurry-up-boss-is-coming/12.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/13.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/14.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/15.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/16.JPG" alt=""><br>PPT做完之后换台电脑就打不开了这是最恼人的。撇开技术问题不谈，总有那么几种情况下存在我们实在无力解决的版本兼容性问题。一般在office2003和office2007、office2010、office2013之间会发生这种情况，不要笑，因为的确还有一部分计算机在使用office2003。当用03版本打开高版本时就会出现打不开的情况。<br>这种情况下一般需要我们安装兼容包。但是很多时候处于很多原因，我们不愿意去安装兼容包。那怎么办呢？</p>
+<p>既然用PPT不能打开，那么，为什么不换个工具打开呢？ 我们可以通过将PPT另存为图片、视频、pdf等格式可以避免这一问题，多种情况下保证内容能够被展示。<br><img src="../hurry-up-boss-is-coming/版本问题.png" alt=""><br>此外，在保存时我们还可以提前做好兼容性检测。及时对不兼容的地方进行调整，避免不必要的麻烦出现。<br><img src="../hurry-up-boss-is-coming/兼容性检查.png" alt=""><br><img src="../hurry-up-boss-is-coming/17.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/18.JPG" alt=""><br>我们只是想保留自己选择的字体对吧，那就不用换字体。<br>1、嵌入法：<br>将字体嵌入到PPT中，当然，这样会在一定程度上增加PPT体积。<br><img src="../hurry-up-boss-is-coming/字体嵌入.png" alt=""><br>2、文字转图片法：<br><img src="../hurry-up-boss-is-coming/PPTzitizhantu.gif" alt=""><br>将字体转为图片，但是对于后期再次编辑不太友好，而且，当ppt数量庞大时也不适用。<br>当然还有一种最直接的方法<br>3、直接安装法：<br>既然你没有我要用的字体，那就给你装一个呗。此法直接了当，但是，并不是所有人都同意你在人家电脑乱装字体的，所以，还得从自身做好准备。</p>
+<p>关于字体还有一种情况不得不提，那就是老板要求更换PPT字体或者以上三条都不能满足。撇开老板的审美不谈，咱们来说怎么更换字体：<br>1、简单替换法<br><img src="../hurry-up-boss-is-coming/zititihuan1.gif" alt=""><br>很常见、简单的做法。但是也很明显，弊端在于不能大量处理。尤其是针对整个PPT替换字体的情况。<br>2、一键替换字体<br>这种方法的便捷之处在于可以一键替换同一字体，包括模版中的相同字体，省时省力。<br><img src="../hurry-up-boss-is-coming/zititihuan2.gif" alt=""><br>3、除此之外。母版之内也是可以一键替换字体的哦<br><img src="../hurry-up-boss-is-coming/zititihuan3.gif" alt=""><br>但是这种方法有他的局限性，只能是在主题字体之间替换。什么是主题字体呢？看图<br><img src="../hurry-up-boss-is-coming/主题字体.png" alt=""><br>4、此外，据说美化大师、PA插件、NT、OK等插件也可以一键替换字体，在此不做详细阐述。<br><img src="../hurry-up-boss-is-coming/19.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/20.JPG" alt=""><br>PPT做完之后大小很多时候是让然意外的而公司内部要求发邮件文件不能超过20M，所以，得压缩。学学这一招来压缩体积吧。<br>一、简单的图片压缩<br><img src="../hurry-up-boss-is-coming/图片压缩.png" alt=""><br>别小看这点设置，在一个以图片居多的ppt里面压缩效果惊人。<br>二、工具压缩<br>工具压缩不用介绍。这里推荐两款比较经常用的。<br>PPTminimizer和NXPowerLite<br>来做个直观的比较吧<br><img src="../hurry-up-boss-is-coming/10.JPG" alt=""><br>当PPT包含大量图片时，压缩率都很惊人，尤其是NXPowerLite。何止是惊人，简直就是惊人！压缩后大小比原来的零头都小！而简单图片压缩这么简单的一个设置也能带来这么大的变化，也是很受用的。至于非图片的情况下，简单图片压缩不太起作用，两个压缩工具则大致相当。相比较而言，NXPowerLite更优秀。值得推荐。<br><img src="../hurry-up-boss-is-coming/21.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/21.JPG" alt=""><br>动画，做PPT的时候你精心做好的动画到了老板那里老板一句不能有动画就要去掉，怎么办？难道要一个一个的再次精心“删除”？大可不必！不能有动画，那不给看不就行了。<br>简单的一个播放设置，动画就不会显示了。<br><img src="../hurry-up-boss-is-coming/动画.png" alt=""><br>此外，插件在这些时候似乎总是有用的。<br>比如NT插件、PA插件等。<br><img src="../hurry-up-boss-is-coming/2.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/3.JPG" alt=""><br>明明放的高清图却像打了马赛克一样模糊，PPT逼格分分钟拉下来。这怎么能忍？一点小改动来帮你解忧。<br><img src="../hurry-up-boss-is-coming/图片模糊.png" alt=""><br><img src="../hurry-up-boss-is-coming/4.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/5.JPG" alt=""><br>很多情况下老板是很在意公司logo或则slogan这些代表公司形象的东西，而在ppt里面这些一般是作为页眉页脚出现的每页内容页ppt都得有，一旦老板说你这里slogan错了一个字你就要把整个ppt的slogan改一遍。一般的方法是闷头就改，一页一页的去改，现在，你完全不需要这么去做了。因为，你可以这样。<br>通过母版来解决这类问题似乎是再合适不过了。在模板里面改动页眉页脚的logo或者slogan，一次改动，全篇适用。<br><img src="../hurry-up-boss-is-coming/母板.png" alt=""><br><img src="../hurry-up-boss-is-coming/6.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/7.JPG" alt=""><br>ppt做完之后最烦什么？最烦人家乱改你东西！！！所以，不管是出于这种很简单的防修改也好还是很严肃的版权问题也好下面的方法都适用。<br>给PPT修改加上权限密码，再也不用担心他人乱改PPT了。<br><img src="../hurry-up-boss-is-coming/版权.png" alt=""><br>如此一来，如果对方不知道密码，那么只能以只读方式打开。打开后菜单栏呈灰色，是不能编辑的状态。<br><img src="../hurry-up-boss-is-coming/只读.png" alt=""><br><img src="../hurry-up-boss-is-coming/8.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/9.JPG" alt=""><br><img src="../hurry-up-boss-is-coming/22.JPG" alt=""></p>
+]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;快，跟我走,老板喊你回去改PPT&lt;br&gt;
+    
     </summary>
     
+      <category term="PPT" scheme="http://www.boziteng.win/categories/PPT/"/>
+    
+    
+      <category term="教程" scheme="http://www.boziteng.win/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="PPT" scheme="http://www.boziteng.win/tags/PPT/"/>
     
   </entry>
   
   <entry>
-    <title>what&#39;s going on those days 2</title>
+    <title>细数最近干了啥</title>
     <link href="http://www.boziteng.win/2016/09/05/what-s-going-on-those-days-2/"/>
     <id>http://www.boziteng.win/2016/09/05/what-s-going-on-those-days-2/</id>
     <published>2016-09-05T13:30:37.000Z</published>
-    <updated>2016-09-05T13:30:37.124Z</updated>
+    <updated>2016-09-05T14:51:22.156Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="随笔" scheme="http://www.boziteng.win/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://www.boziteng.win/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
