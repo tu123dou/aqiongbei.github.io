@@ -73,8 +73,6 @@
 
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="Qiongbei" type="application/atom+xml" />
 
@@ -88,16 +86,34 @@
 
 
 
-<meta name="description" content="showing off is the fool&apos;s idea of glory.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="分类">
-<meta property="og:url" content="http://www.boziteng.win/categories/index.html">
+<meta name="description" content="问题情境
+实现功能：开关灯效果
+程序（js部分）：
+window.onload=function () {
+     document.body.style.background=&amp;quot;#fff&amp;quot;;
+     document.body.onclick=function () {
+         if (document.body.style.backgroundColor==&amp;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于js中设置元素颜色的问题">
+<meta property="og:url" content="http://www.boziteng.win/2016/10/12/about-color-value-in-js/index.html">
 <meta property="og:site_name" content="Qiongbei">
-<meta property="og:description" content="showing off is the fool&apos;s idea of glory.">
-<meta property="og:updated_time" content="2016-08-06T14:21:35.342Z">
+<meta property="og:description" content="问题情境
+实现功能：开关灯效果
+程序（js部分）：
+window.onload=function () {
+     document.body.style.background=&amp;quot;#fff&amp;quot;;
+     document.body.onclick=function () {
+         if (document.body.style.backgroundColor==&amp;">
+<meta property="og:updated_time" content="2016-10-12T13:20:06.916Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="分类">
-<meta name="twitter:description" content="showing off is the fool&apos;s idea of glory.">
+<meta name="twitter:title" content="关于js中设置元素颜色的问题">
+<meta name="twitter:description" content="问题情境
+实现功能：开关灯效果
+程序（js部分）：
+window.onload=function () {
+     document.body.style.background=&amp;quot;#fff&amp;quot;;
+     document.body.onclick=function () {
+         if (document.body.style.backgroundColor==&amp;">
 
 
 
@@ -118,15 +134,9 @@
 
 
 
-  <link rel="canonical" href="http://www.boziteng.win/categories/"/>
+  <link rel="canonical" href="http://www.boziteng.win/2016/10/12/about-color-value-in-js/"/>
 
-  <title>
-  
-
-  
-    分类 | Qiongbei
-  
-</title>
+  <title> 关于js中设置元素颜色的问题 | Qiongbei </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -147,7 +157,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -270,16 +280,198 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
     
-      <div class="category-all-page">
-        <div class="category-all-title">
-            目前共计 3 个分类
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                关于js中设置元素颜色的问题
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-10-12T20:24:58+08:00" content="2016-10-12">
+              2016-10-12
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/12/about-color-value-in-js/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/12/about-color-value-in-js/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv"><i class="fa fa-file-o"></i>
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+              </span>
+          
         </div>
-        <div class="category-all">
-          <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/PPT/">PPT</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/教程/">教程</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a><span class="category-list-count">3</span></li></ul>
-        </div>
-      </div>
+      </header>
     
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="问题情境"><a href="#问题情境" class="headerlink" title="问题情境"></a>问题情境</h2><ul>
+<li>实现功能：开关灯效果</li>
+<li><p>程序（js部分）：</p>
+<pre><code>window.onload=function () {
+     document.body.style.background=&quot;#fff&quot;;
+     document.body.onclick=function () {
+         if (document.body.style.backgroundColor==&quot;#fff)&quot;) {
+             document.body.style.backgroundColor=&quot;#000&quot;;
+         }
+         else{
+             document.body.style.backgroundColor=&quot;#fff&quot;;
+         }
+     };
+ };
+</code></pre></li>
+</ul>
+<p>按照原来的思路，这样就可以实现功能。<br>但是实际上这个程序没有任何反映，也不报错。</p>
+<h2 id="相关知识-amp-amp-问题所在"><a href="#相关知识-amp-amp-问题所在" class="headerlink" title="相关知识&amp;&amp;问题所在"></a>相关知识&amp;&amp;问题所在</h2><p>上面的例子我们通过</p>
+<pre><code>console.log(document.body.style.backgroundColor);
+</code></pre><p>可以发现，输出值是这样的</p>
+<pre><code>&quot;rgb(255, 255, 255)&quot;
+</code></pre><p>这说明，在js里面，十六进制颜色会被转换成rgb格式。</p>
+<h2 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h2><p>将颜色表示换成单词表示或者rgb表示</p>
+<h2 id="问题拓展"><a href="#问题拓展" class="headerlink" title="问题拓展"></a>问题拓展</h2><p>在将问题颜色改为rgb表示时会发现，仍然没有作用</p>
+<p>我们仔细查看上面的输出值可以发现</p>
+<pre><code>&quot;rgb(255, 255, 255)&quot;
+</code></pre><p>第二个255与第三个255前面是有空格的。</p>
+<p>所以，在相应地方添加空格即可解决。</p>
+<h2 id="问题总结"><a href="#问题总结" class="headerlink" title="问题总结"></a>问题总结</h2><p style="color: red">1. js中十六进制颜色会被转换为rgb形式</p><br><p style="color: red">2. js中rgb颜色表示时，需要在第二、第三个值前面加空格</p>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/wechat.png" alt="Qiongbei WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/alipay.jpg" alt="Qiongbei Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/09/05/hurry-up-boss-is-coming/" rel="next" title="快，跟我走,老板喊你回去改PPT">
+                <i class="fa fa-chevron-left"></i> 快，跟我走,老板喊你回去改PPT
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/10/12/event-binding/" rel="prev" title="关于事件绑定中遇到的一个小问题">
+                关于事件绑定中遇到的一个小问题 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2016/10/12/about-color-value-in-js/"
+     data-title="关于js中设置元素颜色的问题"
+     data-content=""
+     data-url="http://www.boziteng.win/2016/10/12/about-color-value-in-js/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
   </div>
 
 
@@ -291,6 +483,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/10/12/about-color-value-in-js/"
+           data-title="关于js中设置元素颜色的问题" data-url="http://www.boziteng.win/2016/10/12/about-color-value-in-js/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -310,8 +510,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -411,6 +620,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#问题情境"><span class="nav-number">1.</span> <span class="nav-text">问题情境</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相关知识-amp-amp-问题所在"><span class="nav-number">2.</span> <span class="nav-text">相关知识&&问题所在</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#问题解决"><span class="nav-number">3.</span> <span class="nav-text">问题解决</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#问题拓展"><span class="nav-number">4.</span> <span class="nav-text">问题拓展</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#问题总结"><span class="nav-number">5.</span> <span class="nav-text">问题总结</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -524,6 +744,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
