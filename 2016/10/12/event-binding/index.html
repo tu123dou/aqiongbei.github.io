@@ -89,10 +89,8 @@
 <meta name="description" content="问题情境
 实现功能：三个按钮，点击按钮弹出对应按钮的索引
 程序(js部分)：
-window.onload=function () {
-    var aBtn =document.getElementsByTagName(&amp;quot;input&amp;quot;);
-    for (var i = aBtn.length - 1; i &amp;gt;= 0; i--) {
-        aBtn[i].o">
+
+12345678window.onload=function () &amp;#123;	var aBtn =document.getElementsByTagName(&quot;input&quot;);	for (var i = aBtn.length - 1; i &amp;gt;= 0; i--) &amp;#123;		aBtn[i].onclick">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于事件绑定中遇到的一个小问题">
 <meta property="og:url" content="http://www.boziteng.win/2016/10/12/event-binding/index.html">
@@ -100,20 +98,16 @@ window.onload=function () {
 <meta property="og:description" content="问题情境
 实现功能：三个按钮，点击按钮弹出对应按钮的索引
 程序(js部分)：
-window.onload=function () {
-    var aBtn =document.getElementsByTagName(&amp;quot;input&amp;quot;);
-    for (var i = aBtn.length - 1; i &amp;gt;= 0; i--) {
-        aBtn[i].o">
-<meta property="og:updated_time" content="2016-10-12T13:11:14.203Z">
+
+12345678window.onload=function () &amp;#123;	var aBtn =document.getElementsByTagName(&quot;input&quot;);	for (var i = aBtn.length - 1; i &amp;gt;= 0; i--) &amp;#123;		aBtn[i].onclick">
+<meta property="og:updated_time" content="2016-10-12T13:40:19.912Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于事件绑定中遇到的一个小问题">
 <meta name="twitter:description" content="问题情境
 实现功能：三个按钮，点击按钮弹出对应按钮的索引
 程序(js部分)：
-window.onload=function () {
-    var aBtn =document.getElementsByTagName(&amp;quot;input&amp;quot;);
-    for (var i = aBtn.length - 1; i &amp;gt;= 0; i--) {
-        aBtn[i].o">
+
+12345678window.onload=function () &amp;#123;	var aBtn =document.getElementsByTagName(&quot;input&quot;);	for (var i = aBtn.length - 1; i &amp;gt;= 0; i--) &amp;#123;		aBtn[i].onclick">
 
 
 
@@ -353,49 +347,34 @@ window.onload=function () {
       
         <h2 id="问题情境"><a href="#问题情境" class="headerlink" title="问题情境"></a>问题情境</h2><ul>
 <li>实现功能：三个按钮，点击按钮弹出对应按钮的索引</li>
-<li><p>程序(js部分)：</p>
-<pre><code>window.onload=function () {
-    var aBtn =document.getElementsByTagName(&quot;input&quot;);
-    for (var i = aBtn.length - 1; i &gt;= 0; i--) {
-        aBtn[i].onclick=function () {
-            alert(i);
-        };
-    }
-};
-</code></pre><p>按照我原来的思路来讲，这么些就可以达到目的了。<br>但事实并非如此。<br>点击按钮，结果是这样的：</p>
-<pre><code>无论点击哪个按钮，弹出的都是-1
-</code></pre></li>
+<li>程序(js部分)：</li>
 </ul>
-<p>是滴，我们遇到问题了。<br>可是，从程序中，似乎看不到问题的所在。<br>那么问题在哪里呢？<br>抛开这问题，来看一个东西：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">window</span>.onload=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">	<span class="keyword">var</span> aBtn =<span class="built_in">document</span>.getElementsByTagName(<span class="string">"input"</span>);</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = aBtn.length - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</div><div class="line">		aBtn[i].onclick=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">			alert(i);</div><div class="line">		&#125;;</div><div class="line">	&#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<p>按照我原来的思路来讲，这么些就可以达到目的了。<br>但事实并非如此。<br>点击按钮，结果是这样的：</p>
+<pre><code>无论点击哪个按钮，弹出的都是-1
+</code></pre><p>是滴，我们遇到问题了。<br>可是，从程序中，似乎看不到问题的所在。<br>那么问题在哪里呢？<br>抛开这问题，来看一个东西：</p>
 <h2 id="相关知识"><a href="#相关知识" class="headerlink" title="相关知识"></a>相关知识</h2><p>我们怎么使用一个函数呢</p>
 <ol>
 <li>定义</li>
 <li>调用</li>
 </ol>
 <p>这个很简单。<br>我们在回到问题</p>
-<h2 id="问题所在"><a href="#问题所在" class="headerlink" title="问题所在"></a>问题所在</h2><pre><code>在上面那个问题中，我们对每个aBtn进行了一个onclick事件的绑定，在这里对每个btn定义了一个函数，在进行for循环时进行了这一切。
+<h2 id="问题所在"><a href="#问题所在" class="headerlink" title="问题所在"></a>问题所在</h2><pre><code>在上面那个问题中，我们对每个aBtn进行了一个onclick事件的绑定，
+在这里对每个btn定义了一个函数，在进行for循环时进行了这一切。
 而这一切都只是定义，并没有调用，而且没有调用并不影响这个for循环的执行。
 所以等我们点击按钮时，也就是调用时，for循环已经执行完成，这时候i=-1。
 所以，弹出来的都是-1。
 </code></pre><h2 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h2><blockquote>
 <p>我们通过自定义属性来解决这一问题</p>
 </blockquote>
-<pre><code>window.onload=function () {
-        var aBtn =document.getElementsByTagName(&quot;input&quot;);
-        for (var i = aBtn.length - 1; i &gt;= 0; i--) {
-            aBtn[i].index =i;  //添加自定义属性
-            aBtn[i].onclick=function () {
-                console.log(this.index);
-            };
-        }
-    };
-</code></pre><h2 id="问题拓展"><a href="#问题拓展" class="headerlink" title="问题拓展"></a>问题拓展</h2><blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">window</span>.onload=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">	<span class="keyword">var</span> aBtn =<span class="built_in">document</span>.getElementsByTagName(<span class="string">"input"</span>);</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = aBtn.length - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</div><div class="line">		aBtn[i].index =i;  <span class="comment">//添加自定义属性</span></div><div class="line">		aBtn[i].onclick=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">			<span class="built_in">console</span>.log(<span class="keyword">this</span>.index);</div><div class="line">		&#125;;</div><div class="line">	&#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h2 id="问题拓展"><a href="#问题拓展" class="headerlink" title="问题拓展"></a>问题拓展</h2><blockquote>
 <p>我们尝试将上面的</p>
 </blockquote>
-<pre><code>console.log(this.index);
-</code></pre><p>改为</p>
-<pre><code>console.log(aBtn[i]);
-</code></pre><p>结果会报错。为什呢？</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(<span class="keyword">this</span>.index);</div></pre></td></tr></table></figure>
+<p>改为</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(aBtn[i]);</div></pre></td></tr></table></figure>
+<p>结果会报错。为什呢？</p>
 <p>原因很简单，还是因为上面的问题。<br>当点击按钮时，循环已经结束，这时候i=-1。但是aBtn[-1]是不存在的的，所以会报错。</p>
 <h2 id="问题总结"><a href="#问题总结" class="headerlink" title="问题总结"></a>问题总结</h2><p style="color: red">在进行事件绑定时一定要考虑这个函数调用的问题。<br>而且牢记，函数不调用不执行！</p>
       
