@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT,Qiong-bei" />
+  <meta name="keywords" content="javascript,event," />
 
 
 
@@ -88,26 +88,20 @@
 
 <meta name="description" content="问题情境
 实现功能：三个按钮，点击按钮弹出对应按钮的索引
-程序(js部分)：
-
-12345678window.onload=function () &amp;#123;	var aBtn =document.getElementsByTagName(&quot;input&quot;);	for (var i = aBtn.length - 1; i &amp;gt;= 0; i--) &amp;#123;		aBtn[i].onclick">
+程序(js部分)：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于事件绑定中遇到的一个小问题">
 <meta property="og:url" content="http://www.boziteng.win/2016/10/12/event-binding/index.html">
 <meta property="og:site_name" content="Qiongbei">
 <meta property="og:description" content="问题情境
 实现功能：三个按钮，点击按钮弹出对应按钮的索引
-程序(js部分)：
-
-12345678window.onload=function () &amp;#123;	var aBtn =document.getElementsByTagName(&quot;input&quot;);	for (var i = aBtn.length - 1; i &amp;gt;= 0; i--) &amp;#123;		aBtn[i].onclick">
-<meta property="og:updated_time" content="2016-10-12T13:40:19.912Z">
+程序(js部分)：">
+<meta property="og:updated_time" content="2016-10-13T00:43:00.384Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于事件绑定中遇到的一个小问题">
 <meta name="twitter:description" content="问题情境
 实现功能：三个按钮，点击按钮弹出对应按钮的索引
-程序(js部分)：
-
-12345678window.onload=function () &amp;#123;	var aBtn =document.getElementsByTagName(&quot;input&quot;);	for (var i = aBtn.length - 1; i &amp;gt;= 0; i--) &amp;#123;		aBtn[i].onclick">
+程序(js部分)：">
 
 
 
@@ -311,6 +305,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/学习/" itemprop="url" rel="index">
+                    <span itemprop="name">学习</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -349,6 +362,7 @@
 <li>实现功能：三个按钮，点击按钮弹出对应按钮的索引</li>
 <li>程序(js部分)：</li>
 </ul>
+<a id="more"></a>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">window</span>.onload=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">	<span class="keyword">var</span> aBtn =<span class="built_in">document</span>.getElementsByTagName(<span class="string">"input"</span>);</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = aBtn.length - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</div><div class="line">		aBtn[i].onclick=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">			alert(i);</div><div class="line">		&#125;;</div><div class="line">	&#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
 <p>按照我原来的思路来讲，这么些就可以达到目的了。<br>但事实并非如此。<br>点击按钮，结果是这样的：</p>
 <pre><code>无论点击哪个按钮，弹出的都是-1
@@ -416,6 +430,14 @@
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/javascript/" rel="tag">#javascript</a>
+          
+            <a href="/tags/event/" rel="tag">#event</a>
+          
+        </div>
       
 
       
@@ -530,7 +552,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -539,7 +561,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
