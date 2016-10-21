@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="随笔," />
+  <meta name="keywords" content="javascript,array,sort," />
 
 
 
@@ -86,16 +86,19 @@
 
 
 
-<meta name="description" content="让别人决定你的命运，那不可悲吗Hello Mr.Tree">
+<meta name="description" content="快速排序思路
+1、获取中间值，在原数组中删除中间值2、原数组与中间值对比，小于中间值放进left数组，否则放入right数组3、递归这一过程4、数组拼接5、数组长度小于等于1返回数组">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hello Mr.Tree">
-<meta property="og:url" content="http://www.aqiongbei.top/2016/08/16/hello-Mr-Shu/index.html">
+<meta property="og:title" content="数组排序方法">
+<meta property="og:url" content="http://www.aqiongbei.top/2016/10/20/array-and-sort/index.html">
 <meta property="og:site_name" content="Qiongbei">
-<meta property="og:description" content="让别人决定你的命运，那不可悲吗Hello Mr.Tree">
-<meta property="og:updated_time" content="2016-08-16T15:33:07.911Z">
+<meta property="og:description" content="快速排序思路
+1、获取中间值，在原数组中删除中间值2、原数组与中间值对比，小于中间值放进left数组，否则放入right数组3、递归这一过程4、数组拼接5、数组长度小于等于1返回数组">
+<meta property="og:updated_time" content="2016-10-20T12:41:19.517Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hello Mr.Tree">
-<meta name="twitter:description" content="让别人决定你的命运，那不可悲吗Hello Mr.Tree">
+<meta name="twitter:title" content="数组排序方法">
+<meta name="twitter:description" content="快速排序思路
+1、获取中间值，在原数组中删除中间值2、原数组与中间值对比，小于中间值放进left数组，否则放入right数组3、递归这一过程4、数组拼接5、数组长度小于等于1返回数组">
 
 
 
@@ -116,9 +119,9 @@
 
 
 
-  <link rel="canonical" href="http://www.aqiongbei.top/2016/08/16/hello-Mr-Shu/"/>
+  <link rel="canonical" href="http://www.aqiongbei.top/2016/10/20/array-and-sort/"/>
 
-  <title> hello Mr.Tree | Qiongbei </title>
+  <title> 数组排序方法 | Qiongbei </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -281,7 +284,7 @@
             
             
               
-                hello Mr.Tree
+                数组排序方法
               
             
           </h1>
@@ -293,8 +296,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-16T22:54:34+08:00" content="2016-08-16">
-              2016-08-16
+            <time itemprop="dateCreated" datetime="2016-10-20T19:51:40+08:00" content="2016-10-20">
+              2016-10-20
             </time>
           </span>
 
@@ -307,8 +310,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
+                  <a href="/categories/学习/" itemprop="url" rel="index">
+                    <span itemprop="name">学习</span>
                   </a>
                 </span>
 
@@ -323,8 +326,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/08/16/hello-Mr-Shu/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/16/hello-Mr-Shu/" itemprop="commentsCount"></span>
+                <a href="/2016/10/20/array-and-sort/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/20/array-and-sort/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -352,8 +355,19 @@
       
 
       
-         <blockquote class="blockquote-center"><p>让别人决定你的命运，那不可悲吗<br>Hello Mr.Tree</p>
+        <h1 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h1><h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><blockquote>
+<p>1、获取中间值，在原数组中删除中间值<br>2、原数组与中间值对比，小于中间值放进left数组，否则放入right数组<br>3、递归这一过程<br>4、数组拼接<br>5、数组长度小于等于1返回数组</p>
 </blockquote>
+<a id="more"></a>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> ary=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">85</span>,<span class="number">51</span>,<span class="number">54</span>,<span class="number">8</span>,<span class="number">5</span>,<span class="number">4584</span>,<span class="number">1</span>,<span class="number">5</span>,<span class="number">45</span>];</div><div class="line"><span class="built_in">console</span>.log(<span class="string">"原始数组"</span>);</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">quickSort</span>(<span class="params">ary</span>) </span>&#123;</div><div class="line">	<span class="keyword">if</span> (ary.length&lt;=<span class="number">1</span>) &#123;</div><div class="line">		<span class="keyword">return</span> ary;</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">var</span> cen = <span class="built_in">Math</span>.floor(ary.length/<span class="number">2</span>);</div><div class="line">	<span class="keyword">var</span> cenVal =ary.splice(cen,<span class="number">1</span>)[<span class="number">0</span>];</div><div class="line">	<span class="keyword">var</span> left=[];</div><div class="line">	<span class="keyword">var</span> right =[];</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; ary.length; i++) &#123;</div><div class="line">		<span class="keyword">var</span> cur=ary[i];</div><div class="line">		<span class="keyword">if</span>(cur&lt;cenVal)&#123;</div><div class="line">			left.push(cur);</div><div class="line">		&#125;<span class="keyword">else</span>&#123;</div><div class="line">			right.push(cur);</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">return</span> quickSort(left).concat([cenVal],quickSort(right));</div><div class="line">&#125;</div><div class="line"><span class="built_in">console</span>.log(<span class="string">"快速排序后:"</span>,quickSort(ary));</div></pre></td></tr></table></figure>
+<h1 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h1><h2 id="思路-1"><a href="#思路-1" class="headerlink" title="思路"></a>思路</h2><blockquote>
+<p>1、新建一个数组，将原始数组的第一个放入新建数组<br>2、原始数组从索引1开始循环与新建数组中的内容对比，如果，这个值大于新建数组中的某个值，就把这个数插入到这个数的后面。结束循环。<br>3、如果，这个值小于新建数组的第一项，则把这个值添加到新建数组的前面。结束循环。<br>4、循环2、3步</p>
+</blockquote>
+<h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">	<span class="keyword">var</span> ary=[<span class="number">0</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">12</span>,<span class="number">12</span>,<span class="number">12</span>,<span class="number">121</span>,<span class="number">21</span>,<span class="number">2</span>];</div><div class="line">	<span class="built_in">console</span>.log(<span class="string">"原始数组："</span>,ary);</div><div class="line">	<span class="keyword">var</span> arySort =[ary[<span class="number">0</span>]];</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">1</span>; i &lt; ary.length; i++) &#123;</div><div class="line">		<span class="keyword">var</span> cur =ary[i];</div><div class="line">		<span class="keyword">for</span> (<span class="keyword">var</span> j = arySort.length<span class="number">-1</span>; j &gt;=<span class="number">0</span>; j--) &#123;</div><div class="line">			<span class="keyword">if</span> (cur&gt;arySort[j]) &#123;</div><div class="line">				arySort.splice(j+<span class="number">1</span>,<span class="number">0</span>,cur);</div><div class="line">				<span class="keyword">break</span>;</div><div class="line">			&#125;</div><div class="line">			<span class="keyword">if</span> (cur&lt;=arySort[<span class="number">0</span>]) &#123;</div><div class="line">				arySort.unshift(cur);</div><div class="line">				<span class="keyword">break</span>;</div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	<span class="built_in">console</span>.log(<span class="string">"插入排序后："</span>,arySort);</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h1 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h1><h2 id="思路-2"><a href="#思路-2" class="headerlink" title="思路"></a>思路</h2><blockquote>
+<p>1、比较两个数，如果前面的数小于后面的数，交换位置。<br>2、循环此过程</p>
+</blockquote>
+<h2 id="代码-2"><a href="#代码-2" class="headerlink" title="代码"></a>代码</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a=[<span class="number">1</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">2</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">9</span>,<span class="number">0</span>];</div><div class="line"><span class="built_in">console</span>.log(<span class="string">"原始数组"</span>,a);</div><div class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; a.length; i++) &#123;</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> j = <span class="number">0</span>; j &lt; a.length<span class="number">-1</span>-i; j++) &#123;</div><div class="line">		<span class="keyword">if</span> (a[j] &gt; a[j+<span class="number">1</span>]) &#123;</div><div class="line">			<span class="keyword">var</span> n=a[j];</div><div class="line">			a[j]=a[j+<span class="number">1</span>];</div><div class="line">			a[j+<span class="number">1</span>]=n;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;</div><div class="line"><span class="built_in">console</span>.log(<span class="string">"冒泡排序后数组"</span>,a);</div></pre></td></tr></table></figure>
       
     </div>
 
@@ -396,7 +410,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/随笔/" rel="tag">#随笔</a>
+            <a href="/tags/javascript/" rel="tag">#javascript</a>
+          
+            <a href="/tags/array/" rel="tag">#array</a>
+          
+            <a href="/tags/sort/" rel="tag">#sort</a>
           
         </div>
       
@@ -405,16 +423,16 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/08/11/apply-Next-theme-on-hexo/" rel="next" title="在hexo上应用Next主题">
-                <i class="fa fa-chevron-left"></i> 在hexo上应用Next主题
+              <a href="/2016/10/20/about-two-number-change/" rel="next" title="关于两个数交换值的方法">
+                <i class="fa fa-chevron-left"></i> 关于两个数交换值的方法
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/09/05/what-s-going-on-those-days-2/" rel="prev" title="细数最近干了啥">
-                细数最近干了啥 <i class="fa fa-chevron-right"></i>
+              <a href="/2016/10/20/Delete-array-duplicates/" rel="prev" title="数组去重方法">
+                数组去重方法 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -430,10 +448,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2016/08/16/hello-Mr-Shu/"
-     data-title="hello Mr.Tree"
+        <div class="ds-share flat" data-thread-key="2016/10/20/array-and-sort/"
+     data-title="数组排序方法"
      data-content=""
-     data-url="http://www.aqiongbei.top/2016/08/16/hello-Mr-Shu/">
+     data-url="http://www.aqiongbei.top/2016/10/20/array-and-sort/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -463,8 +481,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/08/16/hello-Mr-Shu/"
-           data-title="hello Mr.Tree" data-url="http://www.aqiongbei.top/2016/08/16/hello-Mr-Shu/">
+      <div class="ds-thread" data-thread-key="2016/10/20/array-and-sort/"
+           data-title="数组排序方法" data-url="http://www.aqiongbei.top/2016/10/20/array-and-sort/">
       </div>
     
   </div>
@@ -605,7 +623,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#快速排序"><span class="nav-number">1.</span> <span class="nav-text">快速排序</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#思路"><span class="nav-number">1.1.</span> <span class="nav-text">思路</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码"><span class="nav-number">1.2.</span> <span class="nav-text">代码</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#插入排序"><span class="nav-number">2.</span> <span class="nav-text">插入排序</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#思路-1"><span class="nav-number">2.1.</span> <span class="nav-text">思路</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码-1"><span class="nav-number">2.2.</span> <span class="nav-text">代码</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#冒泡排序"><span class="nav-number">3.</span> <span class="nav-text">冒泡排序</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#思路-2"><span class="nav-number">3.1.</span> <span class="nav-text">思路</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码-2"><span class="nav-number">3.2.</span> <span class="nav-text">代码</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
